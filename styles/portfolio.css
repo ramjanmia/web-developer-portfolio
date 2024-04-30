@@ -221,4 +221,12 @@ font-weight: 700;
     margin-top: 50px;
 }
 
+/* footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 120px 200px;
+    margin-top: 100px;
+}
+
    
