@@ -1,38 +1,87 @@
+/* second used all font style */
+
 body{
     font-family: "Open Sans", sans-serif;
 }
-Nav {
+
+/* first nav display and seven*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 200px;
+}
+/* Third */
+nav ul{
     display: flex;
 }
-.marry{
+/* forth */
+nav li{
+    list-style: none;
+    margin-right: 20px;
+}
+/* fifth */
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+
+    font-size: 20px;
+
+    font-weight: 400;
+
+}
+/* sixth */
+.btn{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    color: var(--White-Color, #FFF);
+
+    font-size: 20px;
+
+    font-weight: 700;
+    padding: 19px 38px;
+
+
+}
+.h3{
     color: var(--Dark-01, #181818);
 font-size: 45px;
+
 font-weight: 800;
 
-} 
+}
 span{
     color: #FD6E0A;
 }
 
-nav ul{
-    display: flex;}
-    
-
-nav li{
-    list-style: none;
-    margin-right: 50px;
+/* header */
+header{
+    background: #FFF8F3;
 }
-    
-
-nav a{
-    text-decoration: none;
+.banner{
+    padding: 30px 35px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 564px;
+}
+.first{
     color: var(--Dark-02, #474747);
-   
+
+font-size: 45px;
+
+font-weight: 600;
+
 }
-.btn{
-    border-radius: 5px;
-background: #FD6E0A;
-color: white;
-padding: 5px;
+.second{
+    color: var(--Dark-01, #181818);
+
+font-size: 85px;
+
+font-weight: 700;
+
+
 }
 

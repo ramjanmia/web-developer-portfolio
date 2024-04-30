@@ -14,6 +14,7 @@ nav{
     display: flex;
     justify-content: space-around ;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .marry{
@@ -48,4 +49,35 @@ nav a{
     color:white;
     font-weight: 700;
     padding: 15px 35px;
+}
+/* Head related styles */
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 35px 30px 150px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.profile{
+    width: 500px;
+   
+
+}
+.second{
+    color: var(--Dark-01, #181818);
+
+font-size: 85px;
+
+font-weight: 700;
+
+}
+.first{
+    color: var(--Dark-02, #474747);
+    
+    font-size: 45px;
+    
+    font-weight: 600;
+    
 }
