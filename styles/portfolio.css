@@ -1,0 +1,51 @@
+/* font family */
+body{
+
+    font-family: "Open Sans", sans-serif;
+}
+
+span{
+    color:#FD6E0A;
+}
+
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+
+.marry{
+    color: var(--Dark-01, #181818);
+
+
+font-size: 45px;
+
+font-weight: 800;
+
+}
+nav> ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+}
+
+.btn{
+    border-radius: 5px;
+     background: #FD6E0A;
+     border: 0px;
+     font-size: 20px;
+    color:white;
+    font-weight: 700;
+    padding: 15px 35px;
+}

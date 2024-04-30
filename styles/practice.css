@@ -1,0 +1,38 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+Nav {
+    display: flex;
+}
+.marry{
+    color: var(--Dark-01, #181818);
+font-size: 45px;
+font-weight: 800;
+
+} 
+span{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;}
+    
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+    
+
+nav a{
+    text-decoration: none;
+    color: var(--Dark-02, #474747);
+   
+}
+.btn{
+    border-radius: 5px;
+background: #FD6E0A;
+color: white;
+padding: 5px;
+}
+
